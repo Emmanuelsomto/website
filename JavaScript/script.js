@@ -1,0 +1,20 @@
+console.log("Hi there!");
+console.log("I am excited to talk to you.");
+let bot;
+bot = "teacherbot";
+let botlocation = " the universe";
+console.log("Allow me to introduce myself.");
+const botIntroduction = "My name is " + bot + ".";
+console.log(botIntroduction);
+const botLocationSentence = "I live in" + botlocation + ".";
+console.log(botLocationSentence);
+bot = "professorbot";
+const nicknameIntroduction = "My nickname" + bot + ".";
+console.log(nicknameIntroduction);
+bot = "awesomeTeacherBot";
+const newNicknameGreeting = "I love my nickname but wish people would call me " + bot + ".";
+console.log(newNicknameGreeting);
+const favoriteSubject = "Computer Science";
+const favoriteSubjectSentence = "My favourite subject is " + favoriteSubject + ".";
+console.log(favoriteSubjectSentence);
+bot = "Well, it was nice to talk to you. Have a nice day!"
