@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 20px;
+  font-size: 20px;
+}
+
+h2 {
+  color: black;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+h6 {
+  color: brown;
+}
+
+h5 {
+  color: brown;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.arrow {
+  color: green;
+  padding: 5px;
+  padding-top: 0;
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.cards-container {
+  background-color: #eee;
+  padding: 20px;
+  text-align: left;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  background-color: black;
+  color: #eee;
+  width: 50%;
+  padding: 15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: gray;
+}
+
+.btns {
+  padding: 5px;
+  background-color: green;
+  color: #eee;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 80px;
+  font-size: medium;
+  font-weight: 700;
+  margin-top: 30px
+}
+
+.btns:hover {
+  background-color: darkgreen;
+}
+
+.colour {
+  color: green;
+  font-size: medium;
+  font-weight: 800;
+}
+
+.white {
+  color: rgb(93, 23, 23);
+  font-size: large;
+  font-weight: 800;
+}
+
+.star {
+  color: gray;
+  font-size: bold;
+}
+
+@media (max-width: 765px) {
+  body {
+    padding: 40px;
+  }
+
+  h2, .arrow {
+    font-size: 40px;
+  }
+
+   h6 {
+    font-size: 15px;
+  }
+}
+
+
+
